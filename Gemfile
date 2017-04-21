@@ -23,6 +23,10 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Use bootstrap as front-end framework
+gem 'bootstrap-sass'
+# Use Font Awesome
+gem "font-awesome-rails", "~> 4.3"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -40,6 +44,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Use RSpec for testing
   gem 'rspec-rails', '~> 3.5.2'
+  gem 'simple_form', '~> 3.4.0'
 end
 
 group :development do
