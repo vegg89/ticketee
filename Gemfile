@@ -31,8 +31,10 @@ gem "font-awesome-rails", "~> 4.3"
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-#Use devise for authentication
+# Use devise for authentication
 gem 'devise', '~> 4.2.1'
+# Use pundit for authorization
+gem 'pundit', '~> 1.1.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
